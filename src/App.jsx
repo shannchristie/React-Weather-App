@@ -74,8 +74,24 @@ function App() {
         </section>
 
         <footer className="footer">
-          <span> Made by Shannen <span className="footer-heart">♥</span></span>
-          <span>Weather for wherever you are.</span>
+          <span> Made by Shannen <span className="footer-heart">♥</span> Hosted on{" "}
+  <a
+    href="https://github.com/shannchristie/React-Weather-App"
+    target="_blank"
+    rel="noreferrer"
+  >
+    GitHub
+  </a>{" "}
+  and{" "}
+  <a
+    href="https://spectacular-chebakia-00546a.netlify.app"
+    target="_blank"
+    rel="noreferrer"
+  >
+    Netlify
+  </a>
+  </span>
+        
         </footer>
       </div>
     </main>

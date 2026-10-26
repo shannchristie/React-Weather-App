@@ -1,16 +1,20 @@
 
 :root {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  color: #292744;
+  color: #29263b;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-optical-sizing: auto;
 }
 
 * {
   box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  min-height: 100%;
 }
 
 body {
@@ -18,9 +22,9 @@ body {
   min-height: 100vh;
   margin: 0;
   background:
-    radial-gradient(ellipse at 15% 10%, rgba(255, 255, 255, 0.95), transparent 42%),
-    radial-gradient(ellipse at 85% 85%, rgba(195, 211, 255, 0.45), transparent 40%),
-    linear-gradient(135deg, #f5f1ff 0%, #eef5ff 48%, #f8f4fb 100%);
+    radial-gradient(ellipse at 15% 10%, #e4ddff 0%, transparent 45%),
+    radial-gradient(ellipse at 90% 85%, #dce9ff 0%, transparent 42%),
+    #f7f6fc;
 }
 
 button,
@@ -28,13 +32,6 @@ input {
   font: inherit;
 }
 
-button:focus-visible,
-input:focus-visible {
-  outline: 3px solid #b6a4ff;
-  outline-offset: 3px;
-}
-
-::selection {
-  background: #e0d7ff;
-  color: #292744;
+img {
+  display: block;
 }
